@@ -3,7 +3,7 @@ print("---------- NÚMEROS PRIMOS ---------")
 print("-----------------------------------")
 print("\n1.Numeros primos de 1 a 200\n2.Numeros primos anteriores a cierto número\n3.Saber si un número es primo o no")
 opcion = int(input("Eliga una opcion: "))
-
+contador = 0
 if opcion == 1:
     numero = 1
     while numero <= 200:
