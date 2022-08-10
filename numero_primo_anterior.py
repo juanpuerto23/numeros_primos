@@ -1,5 +1,3 @@
-numero = 1
-contador = 0
 print("\n-----------------------------------")
 print("---------- NÚMEROS PRIMOS ---------")
 print("-----------------------------------")
@@ -7,6 +5,7 @@ print("\n1.Numeros primos de 1 a 200\n2.Numeros primos anteriores a cierto núme
 opcion = int(input("Eliga una opcion: "))
 
 if opcion == 1:
+    numero = 1
     while numero <= 200:
         contador = 1
         x = 0
