@@ -18,6 +18,7 @@ if opcion == 1:
         numero += 1
 
 if opcion == 2:
+    numero = 1
     PedirNumero = int(input("Ingrese su número: "))
     while numero <= PedirNumero:
         contador = 1
